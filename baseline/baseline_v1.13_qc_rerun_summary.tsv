@@ -1,9 +1,18 @@
-test	value	expected	pass
-FBA_status	optimal	optimal	True
-FBA_objective	10.545510	10.545510	True
-pFBA_total_flux	9504.12	~9504	True
-FVA_bio1_min_90pct	9.4910	~9.49	True
-FVA_bio1_max	10.5455	~10.55	True
-reaction_count	1021	1021	True
-metabolite_count	979	979	True
-gene_count	685	685	True
+reaction_id	role	pFBA_flux
+rxn00018_c0	RuBisCO_carboxylase	0.0
+rxn01111_c0	PRK	0.0
+rxn01116_c0	Ru5P_epimerase	-4.4444664884137355
+rxn00336_c0	ICL	2.356289625954446
+rxn00330_c0	MS	0.0
+rxn00256_c0	citrate_synthase	1.9536620674041236
+rxn00288_c0	SDH	58.86595416360196
+rxn13974_c0	POR	89.04695457925199
+rxn06874_c0	nitrogenase	0.0
+rxn05759_c0	hydrogenase	0.0
+rxn08173_c0	ATP_synthase	58.45847495011204
+rxnTX73PHO001_c0	photosynthetic_RC	18.3
+EX_cpd11632_e0	photon_exchange	-36.6
+EX_cpd00011_e0	CO2_exchange	0.23
+EX_cpd11640_e0	H2_exchange	0.0
+rxn00929_c0	pyrroline5carboxylate_reductase	81.30907772186545
+rxn00501_c0	3oxopropanoate_oxidoreductase	-18.54547827646741

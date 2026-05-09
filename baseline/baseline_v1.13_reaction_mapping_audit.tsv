@@ -1,27 +1,6 @@
-reaction_id	exists_in_model	pathway	role	EC	model_name	lower_bound	upper_bound	reversible	gpr	n_metabolites	reaction_string	note
-rxn00018_c0	True	CBB	RuBisCO_carboxylase	4.1.1.39	3-phospho-D-glycerate carboxy-lyase (dimerizing; D-ribulose-1,5-bisphosphate-forming)_c0	0.0	1000.0	False	TX73_RS08010 and TX73_RS08015	5	cpd00001[c0] + cpd00011[c0] + cpd00871[c0] --> 2.0 cpd00067[c0] + 2.0 cpd00169[c0]	CO2 + RuBP + H2O -> 2x 3PG; TRUE RuBisCO
-rxn01111_c0	True	CBB	phosphoribulokinase	2.7.1.19	ATP:D-ribulose-5-phosphate 1-phosphotransferase_c0	0.0	1000.0	False	TX73_RS24115	5	cpd00002[c0] + cpd00171[c0] --> cpd00008[c0] + cpd00067[c0] + cpd00871[c0]	ATP + Ru5P -> RuBP; PRK
-rxn01116_c0	True	CBB_support	Ru5P_epimerase	5.1.3.1	D-Ribulose-5-phosphate 3-epimerase_c0	-1000.0	1000.0	True	TX73_RS19755	2	cpd00171[c0] <=> cpd00198[c0]	Ru5P <-> Xu5P; NOT RuBisCO
-rxn05040_c0	True	riboflavin	DHBP_synthase	4.1.99.12	D-ribulose 5-phosphate formate-lyase (L-3,4-dihydroxybutan-2-one 4-phosphate-forming)_c0	0.0	1000.0	False	TX73_RS05620	4	cpd00171[c0] --> cpd00047[c0] + cpd00067[c0] + cpd11225[c0]	Ru5P -> DHBP; NOT RuBisCO
-rxn02507_c0	True	tryptophan	indole3glycerolP_synthase	4.1.1.48	1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose-5-phosphate carboxy-lyase(cyclizing)_c0	0.0	1000.0	False	TX73_RS14985	5	cpd00067[c0] + cpd00956[c0] --> cpd00001[c0] + cpd00011[c0] + cpd02210[c0]	NOT RuBisCO; tryptophan biosynthesis
-rxn00256_c0	True	TCA	citrate_synthase	2.3.3.1	acetyl-CoA:oxaloacetate C-acetyltransferase (thioester-hydrolysing)_c0	0.0	1000.0	False	TX73_RS15065	6	cpd00001[c0] + cpd00022[c0] + cpd00032[c0] --> cpd00010[c0] + cpd00067[c0] + cpd00137[c0]	
-rxn00974_c0	True	TCA	aconitase	4.2.1.3	citrate hydro-lyase (cis-aconitate-forming)_c0	-1000.0	1000.0	True	TX73_RS01045	3	cpd00137[c0] <=> cpd00001[c0] + cpd00331[c0]	
-rxn00199_c0	True	TCA	isocitrate_dehydrogenase	1.1.1.42	oxalosuccinate carboxy-lyase (2-oxoglutarate-forming)_c0	0.0	1000.0	False	TX73_RS19855	4	cpd00067[c0] + cpd03187[c0] --> cpd00011[c0] + cpd00024[c0]	
-rxn00285_c0	True	TCA	succinyl-CoA_synthetase	6.2.1.5	Succinate:CoA ligase (ADP-forming)_c0	-1000.0	1000.0	True	TX73_RS00985 and TX73_RS00990	6	cpd00002[c0] + cpd00010[c0] + cpd00036[c0] <=> cpd00008[c0] + cpd00009[c0] + cpd00078[c0]	
-rxn00288_c0	True	TCA	succinate_dehydrogenase	1.3.5.1	Succinate:(acceptor) oxidoreductase_c0	-1000.0	1000.0	True	TX73_RS01130 and TX73_RS01135	4	cpd00015[c0] + cpd00036[c0] <=> cpd00106[c0] + cpd00982[c0]	
-rxn00336_c0	True	glyoxylate	isocitrate_lyase	4.1.3.1	isocitrate glyoxylate-lyase (succinate-forming)_c0	0.0	1000.0	False	TX73_RS22775	3	cpd00260[c0] --> cpd00036[c0] + cpd00040[c0]	ICL
-rxn00330_c0	True	glyoxylate	malate_synthase	2.3.3.9	acetyl-CoA:glyoxylate C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming)_c0	0.0	1000.0	False	TX73_RS21855	6	cpd00001[c0] + cpd00022[c0] + cpd00040[c0] --> cpd00010[c0] + cpd00067[c0] + cpd00130[c0]	MS
-rxn13974_c0	True	pyruvate	pyruvate_Fd_oxidoreductase	1.2.7.1	pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating)	-1000.0	1000.0	True		7	cpd00011[c0] + cpd00022[c0] + cpd00067[c0] + 2.0 cpd11620[c0] <=> cpd00010[c0] + cpd00020[c0] + 2.0 cpd11621[c0]	POR/PFOR
-rxn06874_c0	True	nitrogen_fixation	nitrogenase_Mo	1.18.6.1	reduced ferredoxin:dinitrogen oxidoreductase (ATP-hydrolysing)_c0	0.0	1000.0	False	(TX73_RS23995 and TX73_RS23990 and TX73_RS23985) or (TX73_RS07065 and TX73_RS07075 and TX73_RS07085) or (TX73_RS07385 and TX73_RS07380 and TX73_RS07370)	10	16.0 cpd00001[c0] + 16.0 cpd00002[c0] + cpd00528[c0] + 8.0 cpd11620[c0] --> 16.0 cpd00008[c0] + 16.0 cpd00009[c0] + 2.0 cpd00013[c0] + 6.0 cpd00067[c0] + 8.0 cpd11621[c0] + cpd11640[c0]	N2 + 8Fd_red + 16ATP -> 2NH3 + H2
-rxn05759_c0	True	hydrogen	hydrogenase_Fd	1.12.7.2	hydrogen:ferredoxin oxidoreductase_c0	-1000.0	1000.0	True		4	2.0 cpd00067[c0] + 2.0 cpd11620[c0] <=> 2.0 cpd11621[c0] + cpd11640[c0]	2H+ + 2Fd_red <-> H2 + 2Fd_ox
-rxnTX73PHO001_c0	True	photosynthesis	reaction_center_II		type II photosynthetic reaction center quinone reduction_c0	0.0	1000.0	False	TX73_RS07855 and TX73_RS07860 and TX73_RS07955	6	2.0 cpd00067[c0] + 2.0 cpd11632[e0] + cpd15560[c0] + 2.0 cpd26785[c0] --> cpd15561[c0] + 2.0 cpd26784[c0]	Type II photosynthetic RC
-rxnTX73PHO002_c0	True	photosynthesis	bc1_complex		cytochrome bc1 complex, Q-cycle proton translocation_c0	0.0	1000.0	False	TX73_RS05225 or TX73_RS06120	6	2.0 cpd00067[c0] + cpd15561[c0] + 2.0 cpd26784[c0] --> 4.0 cpd00067[e0] + cpd15560[c0] + 2.0 cpd26785[c0]	Cytochrome bc1 Q-cycle
-rxn08173_c0	True	energy	ATP_synthase	7.1.2.2	F-type ATP synthase (proton-translocating)_c0	0.0	1000.0	False		6	cpd00008[c0] + cpd00009[c0] + 4.0 cpd00067[e0] --> cpd00001[c0] + cpd00002[c0] + 3.0 cpd00067[c0]	F-type
-rxn15455_c0	True	PHB	PHB_synthase		n (R)-3-Hydroxybutanoyl-CoA <-> Poly-beta-hydroxybutyrate + n CoA	-1000.0	1000.0	True	TX73_RS12925 or TX73_RS21985	3	cpd02234[c0] <=> cpd00010[c0] + cpd12836[c0]	polyhydroxybutyrate
-EX_cpd00029_e0	True	exchange	acetate_exchange		Exchange for Acetate_e0	-1.96	0.0	True		1	cpd00029[e0] <-- 	
-EX_cpd00036_e0	True	exchange	succinate_exchange		Exchange for Succinate_e0	0.0	1000.0	False		1	cpd00036[e0] --> 	
-EX_cpd00211_e0	True	exchange	butyrate_exchange		Exchange for Butyrate_e0	0.0	1000.0	False		1	cpd00211[e0] --> 	
-EX_cpd00011_e0	True	exchange	CO2_exchange		Exchange for CO2_e0	0.0	0.23	False		1	cpd00011[e0] --> 	
-EX_cpd11640_e0	True	exchange	H2_exchange		Exchange for H2_e0	0.0	1000.0	False		1	cpd11640[e0] --> 	
-EX_cpd11632_e0	True	exchange	photon_exchange		Exchange for photon_e0	-36.6	0.0	True		1	cpd11632[e0] <-- 	
-EX_cpd00013_e0	True	exchange	NH3_exchange		Exchange for NH3_e0	-100.0	100.0	True		1	cpd00013[e0] <=> 	
+metabolite	metabolite_name	reaction_id	reaction_name	stoich_coeff	role	bounds	gpr
+cpd00871[c0]	D-Ribulose 1,5-bisphosphate_c0	rxn01111_c0	ATP:D-ribulose-5-phosphate 1-phosphotransferase_c0	1.0	produces_RuBP	[0.0, 1000.0]	TX73_RS24115
+cpd00871[c0]	D-Ribulose 1,5-bisphosphate_c0	rxn00018_c0	3-phospho-D-glycerate carboxy-lyase (dimerizing; D-ribulose-1,5-bisphosphate-forming)_c0	-1.0	consumes_RuBP	[0.0, 1000.0]	TX73_RS08010 and TX73_RS08015
+cpd00169[c0]	3-Phosphoglycerate_c0	rxn01106_c0	2-Phospho-D-glycerate 2,3-phosphomutase_c0	1.0	produces_3PG	[-1000.0, 1000.0]	TX73_RS01765
+cpd00169[c0]	3-Phosphoglycerate_c0	rxn01103_c0	3-Phospho-D-glyceroyl phosphate phosphohydrolase_c0	1.0	produces_3PG	[0.0, 1000.0]	TX73_RS16410
+cpd00169[c0]	3-Phosphoglycerate_c0	rxn00018_c0	3-phospho-D-glycerate carboxy-lyase (dimerizing; D-ribulose-1,5-bisphosphate-forming)_c0	2.0	produces_3PG	[0.0, 1000.0]	TX73_RS08010 and TX73_RS08015
