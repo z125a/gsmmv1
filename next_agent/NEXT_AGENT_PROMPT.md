@@ -18,8 +18,9 @@ Read first:
 
 1. `baseline/CLAUDE_HANDOFF_V1.13_20260509.md`
 2. `evidence/literature_evidence.tsv`
-3. `evidence/phenotype_data_requirements.tsv`
-4. `skills/cga009-top-journal-modeling/references/top_journal_strategy.md`
+3. `evidence/LITERATURE_READING_PROTOCOL.md`
+4. `evidence/phenotype_data_requirements.tsv`
+5. `skills/cga009-top-journal-modeling/references/top_journal_strategy.md`
 
 Mission:
 
@@ -47,6 +48,10 @@ First deliverables:
 3. A data-gap report mapping each desired ecGEM/TFA/13C-MFA constraint to available or missing data.
 4. A no-hallucination evidence ledger with URLs/DOIs and exact fields extracted.
 5. A rejection log of tempting but unsupported shortcuts.
+
+Mandatory literature gate:
+
+Before editing the model, create `candidate_v1.14/evidence_extraction.tsv` from the papers/databases listed in `evidence/literature_evidence.tsv` using the schema in `evidence/LITERATURE_READING_PROTOCOL.md`. The model can only be changed when the proposed edit or constraint has a corresponding evidence row. If literature is missing or inaccessible, record it and move to another evidence-supported task.
 
 Success criterion:
 

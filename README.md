@@ -20,6 +20,7 @@ Why v1.13:
 
 - `baseline/`: copied v1.13 model, SBML, QC summaries, phenotype validation, and handoff notes.
 - `evidence/literature_evidence.tsv`: prioritized papers/databases for ecGEM, TFA, and 13C-MFA.
+- `evidence/LITERATURE_READING_PROTOCOL.md`: mandatory literature-reading and evidence-extraction protocol before model editing.
 - `evidence/phenotype_data_requirements.tsv`: wet-lab and literature data needed to raise model credibility.
 - `next_agent/NEXT_AGENT_PROMPT.md`: direct prompt for the next person/agent.
 - `skills/cga009-top-journal-modeling/`: a bundled Codex skill for adversarial, publication-grade model improvement.

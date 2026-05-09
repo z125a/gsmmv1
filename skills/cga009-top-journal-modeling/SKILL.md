@@ -24,9 +24,11 @@ Do not tune one reaction to satisfy one phenotype. Improve the whole model only 
 
 1. Confirm baseline files in `baseline/` and read `baseline/CLAUDE_HANDOFF_V1.13_20260509.md`.
 2. Load `references/top_journal_strategy.md` for the full experimental/modeling roadmap.
-3. Load `references/phenotype_data_requirements.tsv` before requesting new wet-lab data.
-4. Load `references/literature_evidence.tsv` before adding constraints or manuscript claims.
+3. Load `evidence/LITERATURE_READING_PROTOCOL.md` and `evidence/literature_evidence.tsv` before adding constraints or manuscript claims.
+4. Load `evidence/phenotype_data_requirements.tsv` before requesting new wet-lab data.
 5. Run `scripts/check_release_files.py` after edits to confirm the handoff package still has the required files.
+
+Before editing the model, create a candidate-specific `evidence_extraction.tsv` using the extraction schema in `evidence/LITERATURE_READING_PROTOCOL.md`.
 
 ## Modeling Priorities
 

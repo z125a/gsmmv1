@@ -12,6 +12,7 @@ REQUIRED = [
     "baseline/cobra_matlab_qc_summary.tsv",
     "baseline/cga009_phenotype_profile_results.tsv",
     "evidence/literature_evidence.tsv",
+    "evidence/LITERATURE_READING_PROTOCOL.md",
     "evidence/phenotype_data_requirements.tsv",
     "next_agent/NEXT_AGENT_PROMPT.md",
     "skills/cga009-top-journal-modeling/SKILL.md",

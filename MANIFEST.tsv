@@ -9,6 +9,7 @@ baseline/internal_imbalanced_reactions.tsv	Remaining imbalanced internal reactio
 baseline/cga009_phenotype_profile_results.tsv	Phenotype profile results
 baseline/cga009_phenotype_mfa_phb_validation_report.xlsx	Validation workbook
 evidence/literature_evidence.tsv	Prioritized external evidence and databases
+evidence/LITERATURE_READING_PROTOCOL.md	Mandatory reading and extraction protocol before model edits
 evidence/phenotype_data_requirements.tsv	Required phenotype/omics/flux data for next phase
 next_agent/NEXT_AGENT_PROMPT.md	Prompt to hand directly to the next agent
 skills/cga009-top-journal-modeling/SKILL.md	Codex skill for rigorous CGA009 model improvement
