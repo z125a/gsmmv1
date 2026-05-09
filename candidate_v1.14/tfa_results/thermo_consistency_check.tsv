@@ -1,0 +1,11 @@
+reaction_id	name	deltaG0_kJ_mol	thermo_direction	pfba_flux	status	note
+rxn00256_c0	Citrate synthase	-31.4	forward_only	1.9536620674041325	OK	Flux=1.9537; consistent with deltaG
+rxn00974_c0	Aconitase	7.6	reversible	2.356289625954457	OK	Flux=2.3563; reaction is thermodynamically reversible
+rxn00199_c0	Isocitrate dehydrogenase	-8.4	forward_preferred	0.0	OK	Flux=0.0000; consistent with deltaG
+rxn00336_c0	Isocitrate lyase	-1.1	near_equilibrium	2.3562896259544566	OK	Flux=2.3563; reaction is thermodynamically reversible
+rxn00330_c0	Malate synthase	-32.5	forward_only	0.0	OK	Flux=0.0000; consistent with deltaG
+rxn00288_c0	Succinate dehydrogenase	0.4	reversible	58.8659541636021	OK	Flux=58.8660; reaction is thermodynamically reversible
+rxn00285_c0	Succinyl-CoA synthetase	-2.9	near_equilibrium	-54.83578939413905	OK	Flux=-54.8358; reaction is thermodynamically reversible
+rxn13974_c0	Pyruvate:Fd oxidoreductase	-19.2	forward_preferred	89.04695457925227	OK	Flux=89.0470; consistent with deltaG
+rxn01116_c0	RuBisCO (form I)	-35.1	forward_only	-4.44446648841376	VIOLATION	Flux is reverse (-4.4445) but deltaG strongly favors forward
+rxn08173_c0	ATP synthase	-36.0	forward_only	58.45847495011204	OK	Flux=58.4585; consistent with deltaG
