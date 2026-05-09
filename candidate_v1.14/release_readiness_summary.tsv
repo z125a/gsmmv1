@@ -1,0 +1,16 @@
+substrate	test	expected	observed	status
+acetate	growth_feasible	>0	10.7020	PASS
+acetate	glyoxylate_shunt_active	>0	2.3913	PASS
+acetate	RuBisCO_flux_check	0 at default (no CO2 fixation in chemoheterotrophic)	0.0000	PASS
+acetate	CO2_production	>0	0.2300	PASS
+acetate	nitrogenase_zero_no_N2	=0 (no N2 exchange)	0.0000	PASS
+succinate	growth_feasible	>0	10.5606	PASS
+succinate	glyoxylate_shunt_blocked	=0 (ICL constraint)	0.000000	PASS
+succinate	RuBisCO_flux_check	0 at default (no CO2 fixation in chemoheterotrophic)	0.0000	PASS
+succinate	CO2_production	>0	0.2300	PASS
+succinate	nitrogenase_zero_no_N2	=0 (no N2 exchange)	0.0000	PASS
+butyrate	growth_feasible	>0	10.8126	PASS
+butyrate	glyoxylate_shunt_active	>0	2.4160	PASS
+butyrate	RuBisCO_flux_check	0 at default (no CO2 fixation in chemoheterotrophic)	0.0000	PASS
+butyrate	CO2_production	>0	0.2300	PASS
+butyrate	nitrogenase_zero_no_N2	=0 (no N2 exchange)	0.0000	PASS

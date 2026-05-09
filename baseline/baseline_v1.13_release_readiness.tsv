@@ -1,0 +1,6 @@
+gate	status	detail
+metrics_match_handoff	PASS	8/8 tests pass
+no_critical_architecture_issues	FAIL	2 critical issues found
+reaction_mapping_audited	PASS	Curated map with corrected RuBisCO/epimerase identities
+stoichiometry_reviewed	PASS_WITH_KNOWN_ISSUES	47 imbalanced reactions (known from handoff; porphyrin/carrier conventions)
+OVERALL_BASELINE_READINESS	CONDITIONAL_PASS	Baseline is usable as reference but has known architecture gaps (N2/H2)

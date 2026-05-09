@@ -1,0 +1,47 @@
+reaction_id	name	imbalance	n_elements_off
+rxn03396_c0	R04989_c0	{'charge': 2.0}	1
+rxn05947_c0	L-proline:(acceptor) oxidoreductase_c0	{'charge': -1.0, 'H': -3.0, 'N': -1.0, 'R': -1.0}	4
+rxn06061_c0	Spermidine:(acceptor) oxidoreductase	{'H': -2.0, 'N': -1.0, 'R': -1.0}	3
+rxn05927_c0	biotin synthase_c0	{'charge': -2.0}	1
+rxn06436_c0	L-Glutamate:tRNA(Gln) ligase (AMP-forming)_c0	{'charge': -3.0, 'C': 10.0, 'H': 14.0, 'O': 13.0, 'P': 2.0, 'R': 1.0}	6
+rxn06437_c0	L-Glutamine:tRNA(Gln) ligase (AMP-forming)_c0	{'charge': -2.0, 'C': 10.0, 'H': 15.0, 'O': 13.0, 'P': 2.0, 'R': 1.0}	6
+rxn11651_c0	benzoyl-CoA:acceptor oxidoreductase_c0	{'H': 2.0, 'N': 1.0, 'R': 1.0}	3
+rxn06167_c0	cyclohexa-1,5-diene-1-carbonyl-CoA:ferredoxin oxidoreductase (aromatizing, ATP-forming)_c0	{'charge': -2.0, 'N': 1.0, 'R': 1.0}	3
+rxn06938_c0	glutaryl-CoA:(acceptor) 2,3-oxidoreductase (non-decarboxylating)_c0	{'H': -2.0, 'N': -1.0, 'R': -1.0}	3
+rxn16112_c0	R09252_c0	{'charge': -2.0}	1
+rxn15455_c0	n (R)-3-Hydroxybutanoyl-CoA <-> Poly-beta-hydroxybutyrate + n CoA	{'R': 2.0}	1
+rxn07189_c0	arbon-monoxide,water:ferredoxin oxidoreductase_c0	{'charge': 1.0}	1
+rxn07625_c0	R07834_c0	{'charge': 2.0, 'O': 1.0}	2
+rxn06926_c0	reduced ferredoxin:acetylene oxidoreductase (ATP-hydrolysing)_c0	{'charge': -1.0}	1
+rxn00689_c0	Tetrahydrofolate:L-glutamate gamma-ligase (ADP-forming)_c0	{'charge': -1.0, 'C': 5.0, 'H': 6.0, 'N': 1.0, 'O': 3.0}	5
+rxn00687_c0	Tetrahydrofolate_NADP__oxidoreductase_c0	{'charge': 2.0}	1
+rxn00664_c0	R00915_c0	{'charge': -2.0, 'C': 4.0, 'H': -4.0, 'O': 2.0}	4
+rxn00685_c0	bifunctional dihydrofolate reductase-thymidylate synthase 1 / DHFR-TS (THY-1)_c0	{'charge': 2.0}	1
+rxn06718_c0	[poly-N-acetyl-D-glucosaminyl-(1->4)-(N-acetyl-D-muramoylpentapeptide)]-diphosphoundecaprenol:[N-acetyl-D-glucosaminyl-(1->4)-N-acetyl-D-muramoylpentapeptide]-diphosphoundecaprenol polysaccharidetransferase_c0	{'charge': -3.0, 'C': 95.0, 'H': 153.0, 'N': 8.0, 'O': 28.0, 'P': 2.0}	6
+rxn02959_c0	S-adenosyl-L-methionine:magnesium-protoporphyrin-IX O-methyltransferase_c0	{'charge': 1.0}	1
+rxn04154_c0	magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH:oxygen oxidoreductase (hydroxylating)_c0	{'H': 1.0}	1
+rxn04158_c0	R06271_c0	{'charge': -2.0}	1
+rxn04160_c0	ATP-dependent ferredoxin:protochlorophyllide-a 7,8-oxidoreductase_c0	{'charge': -2.0}	1
+rxn14270_c0	S-adenosyl-L-methionine:cobalt-factor-II C20-methyltransferase_c0	{'charge': 1.0, 'H': 3.0}	2
+rxn15925_c0	R09055_c0	{'charge': 2.0}	1
+rxn15926_c0	R09056_c0	{'charge': 2.0}	1
+rxn11942_c0	oxidized magnesium-protoporphyrin IX 13-monomethyl ester:NAD+ oxidoreductase_c0	{'H': 1.0}	1
+rxn15930_c0	3-hydroxyethylbacteriochlorophyllide-a:ferredoxin oxidoreductase_c0	{'charge': -1.0}	1
+rxn07588_c0	R07774_c0	{'charge': 1.0, 'C': -1.0, 'H': 1.0, 'O': -2.0}	4
+rxn07589_c0	S-adenosyl-L-methionine:precorrin-7 C15-methyltransferase (C-12-decarboxylating)_c0	{'charge': -1.0, 'C': 1.0, 'H': -1.0, 'O': 2.0}	4
+rxn06165_c0	ADP-glucose:1,4-alpha-D-glucan 4-alpha-D-glucosyltransferase_c0	{'charge': 1.0, 'H': 1.0, 'R': 2.0}	3
+rxn06049_c0	1,4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase_c0	{'R': -2.0}	1
+rxn07204_c0	alkanesulfonate, reduced-FMN:oxygen oxidoreductase_c0	{'O': 1.0, 'C': -2.0, 'S': 1.0}	3
+biomass_pro_c0	Protein biomass pseudo-reaction_c0	{'charge': -4.22273132, 'C': -27.320943319999994, 'H': -48.25072652000003, 'N': -7.282819239999998, 'O': -11.275679320000016, 'P': -0.5684939999999997, 'R': 0.367752999999999, 'S': -0.0583504}	8
+biomass_rna_c0	RNA biomass pseudo-reaction_c0	{'C': -1.9087368999999998, 'H': -2.3587803000000003, 'N': -0.7714751, 'O': -1.3954498000000002, 'P': -0.20017699999999994, 'R': 0.068}	6
+biomass_dna_c0	DNA biomass pseudo-reaction_c0	{'charge': 3.0000000006413785e-07, 'C': -0.7123312, 'H': -0.8986312000000001, 'N': -0.2795666, 'O': -0.4434256, 'P': -0.07384770000000004, 'R': 0.024}	7
+biomass_lipidLN_c0	Lipid_LN biomass pseudo-reaction_c0	{'charge': 0.043568, 'C': -4.49816388, 'H': -8.54580816, 'N': -0.06644, 'O': -0.9501630000000001, 'P': -0.110008, 'R': 0.08199}	7
+biomass_lps_c0	LPS biomass pseudo-reaction_c0	{'charge': -8.0, 'H': -1274.0, 'O': -599.0, 'C': -781.0, 'N': -32.0, 'P': 2.0}	6
+biomass_storage_c0	storage biomass pseudo-reaction_c0	{'C': -3.0578, 'H': -5.0188, 'O': -2.3931, 'R': -0.0968}	4
+biomass_cellwall_c0	cellwall biomass pseudo-reaction_c0	{'charge': 0.10668620000000001, 'C': -2.3372192, 'H': -3.7261526, 'N': -0.2603284, 'O': -0.88026, 'P': -0.0358568, 'R': 1.0}	7
+biomass_pigment_c0	pigment biomass pseudo-reaction_c0	{'charge': -0.001207, 'C': -0.26464920000000003, 'H': -0.37523854, 'Mg': -0.001207, 'N': -0.004828, 'O': -0.02795896, 'R': 1.0}	7
+biomass_cofactor_c0	cofactor biomass pseudo-reaction_c0	{'charge': 0.026480349999999993, 'C': -0.42280534, 'H': -0.55191663, 'N': -0.11028797000000001, 'O': -0.19433778999999993, 'P': -0.02307472999999999, 'S': -0.00376281, 'Fe': -0.0019142999999999999, 'R': 1.0}	9
+biomass_ions_c0	ions biomass pseudo-reaction_c0	{'charge': -0.7056180000000001, 'H': -0.144414, 'N': -0.03186, 'Zn': -0.008486, 'O': -0.076348, 'S': -0.0106, 'Co': -0.008486, 'K': -0.4765, 'Mg': -0.0212, 'Fe': -0.03818, 'Mn': -0.008486, 'Cu': -0.008486, 'Ca': -0.01272, 'Cl': -0.01272, 'Mo': -0.008487, 'R': 1.0}	16
+biomass_gam_c0	GAM biomass pseudo-reaction_c0	{'charge': 0.0899999999999963, 'H': -10.69420000000003, 'O': -5.542100000000033, 'C': -0.3000000000000682, 'N': -0.1500000000000341, 'P': -0.0899999999999963, 'R': 1.0}	7
+bio2	biomass reaction_DA	{'R': -5.82599}	1
+biomass_lipidDA_c0	Lipid_DA biomass pseudo-reaction_c0	{'charge': 0.043568, 'C': -4.531166280000001, 'H': -8.53920768, 'N': -0.06644, 'O': -0.9501630000000001, 'P': -0.110008, 'R': 0.08199}	7

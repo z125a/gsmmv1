@@ -1,0 +1,18 @@
+metabolite_id	cpd_base	expected_identity	model_name	formula	charge	compartment	n_reactions
+cpd00871[c0]	cpd00871	D-Ribulose-1,5-bisphosphate (RuBP)	D-Ribulose 1,5-bisphosphate_c0	C5H8O11P2	-4	c0	2
+cpd00169[c0]	cpd00169	3-Phosphoglycerate (3PG) — product of RuBisCO	3-Phosphoglycerate_c0	C3H4O7P	-3	c0	5
+cpd00171[c0]	cpd00171	D-Ribulose-5-phosphate (Ru5P)	D-Ribulose5-phosphate_c0	C5H9O8P	-2	c0	6
+cpd00198[c0]	cpd00198	D-Xylulose-5-phosphate (Xu5P)	D-Xylulose5-phosphate_c0	C5H9O8P	-2	c0	4
+cpd00102[c0]	cpd00102	Glyceraldehyde-3-phosphate (G3P)	Glyceraldehyde3-phosphate_c0	C3H5O6P	-2	c0	9
+cpd00085[c0]	cpd00085	D-Fructose-6-phosphate (F6P)	beta-Alanine_c0	C3H7NO2	0	c0	3
+cpd00072[c0]	cpd00072	D-Fructose-1,6-bisphosphate (FBP)	D-fructose-6-phosphate_c0	C6H11O9P	-2	c0	6
+cpd00238[c0]	cpd00238	Sedoheptulose-7-phosphate (S7P)	Sedoheptulose7-phosphate_c0	C7H13O10P	-2	c0	4
+cpd00020[c0]	cpd00020	Pyruvate	Pyruvate_c0	C3H3O3	-1	c0	26
+cpd00020[e0]	cpd00020	Pyruvate	Pyruvate_e0	C3H3O3	-1	e0	1
+cpd00022[c0]	cpd00022	Acetyl-CoA	Acetyl-CoA_c0	C23H34N7O17P3S	-4	c0	34
+cpd11620[c0]	cpd11620	Reduced ferredoxin (Fd_red)	Reducedferredoxin_c0	Fe2R4S6	-4	c0	11
+cpd11621[c0]	cpd11621	Oxidized ferredoxin (Fd_ox)	Oxidizedferredoxin_c0	Fe2R4S6	-3	c0	11
+cpd00528[c0]	cpd00528	N2 (dinitrogen)	N2_c0	N2	0	c0	2
+cpd11640[c0]	cpd11640	H2 (hydrogen gas)	H2_c0	H2	0	c0	3
+cpd11640[e0]	cpd11640	H2 (hydrogen gas)	H2_e0	H2	0	e0	2
+cpd11632[e0]	cpd11632	Photon (hv)	hn_e0	hn	0	e0	2

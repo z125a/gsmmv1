@@ -1,0 +1,9 @@
+reaction_id	expected_role	model_name	bounds	correct_id	status
+rxn00018_c0	RuBisCO_carboxylase	3-phospho-D-glycerate carboxy-lyase (dimerizing; D-ribulose-1,5-bisphosphate-forming)_c0	[0.0,1000.0]	True	VERIFIED
+rxn01111_c0	phosphoribulokinase	ATP:D-ribulose-5-phosphate 1-phosphotransferase_c0	[0.0,1000.0]	True	VERIFIED
+rxn01116_c0	Ru5P_epimerase_NOT_RuBisCO	D-Ribulose-5-phosphate 3-epimerase_c0	[-1000.0,1000.0]	True	VERIFIED
+rxn00336_c0	isocitrate_lyase	isocitrate glyoxylate-lyase (succinate-forming)_c0	[0.0,1000.0]	True	VERIFIED
+rxn00330_c0	malate_synthase	acetyl-CoA:glyoxylate C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming)_c0	[0.0,1000.0]	True	VERIFIED
+rxn13974_c0	pyruvate_Fd_oxidoreductase	pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating)	[-1000.0,1000.0]	True	VERIFIED
+rxn06874_c0	nitrogenase_Mo	reduced ferredoxin:dinitrogen oxidoreductase (ATP-hydrolysing)_c0	[0.0,1000.0]	True	VERIFIED
+rxn05759_c0	hydrogenase_Fd	hydrogen:ferredoxin oxidoreductase_c0	[-1000.0,1000.0]	True	VERIFIED
