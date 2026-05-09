@@ -25,6 +25,10 @@ Mission:
 
 Build the next publishable version by integrating three constraint layers: enzyme-capacity constraints (ecGEM/ME-model), thermodynamic flux analysis (TFA), and 13C-MFA validation. Do not chase a single reaction or single phenotype. Improve the whole model's reliability.
 
+Persistence requirement:
+
+Do not stop after one analysis pass, one report, or one candidate patch. Work in repeated build-test-criticize-rebuild cycles until the model reaches publication-ready quality or an explicit external blocker is reached. If a cycle fails, record why, revise the hypothesis, and continue with the next most defensible route. A normal stopping point is not "I found the next steps"; a normal stopping point is "the next version is reproducibly stronger than v1.13 and satisfies the acceptance gates below."
+
 Rules:
 
 1. Keep v1.13 frozen until a candidate release passes stronger validation.
@@ -34,6 +38,7 @@ Rules:
 5. Never add exchanges/transports or change bounds just to force growth.
 6. Do not make one-off edits in porphyrin/chlorophyll/cobalamin, tRNA pseudo-metabolites, or carrier-convention modules until pathway-wide conventions are solved.
 7. Keep all scripts deterministic so another person can rerun from a clean clone.
+8. Continue iterating across candidate versions (`candidate_v1.14`, `candidate_v1.15`, etc.) until the acceptance gates are met; do not hand back only a plan unless blocked by missing experimental data, missing credentials, or impossible software setup.
 
 First deliverables:
 
@@ -46,3 +51,16 @@ First deliverables:
 Success criterion:
 
 The model is only better when it predicts growth phenotypes, exchange fluxes, and internal flux distributions more accurately without losing stoichiometric, thermodynamic, and biological credibility.
+
+Publication-ready acceptance gates:
+
+1. Baseline v1.13 can be reproduced from scripts.
+2. Candidate version has no regression in the validated phenotype panel unless new experimental evidence justifies the change.
+3. Exchange-flux predictions are compared against measured uptake/secretion data where available.
+4. Internal flux predictions are tested against 13C-MFA or isotope-informed literature constraints.
+5. ecGEM/ME constraints use documented proteomics and kcat confidence tiers, with sensitivity analysis for uncertain kcat.
+6. TFA removes infeasible cycles without relying on unsupported metabolite concentration assumptions.
+7. MEMOTE/COBRA reports, model diffs, evidence ledgers, and rejected-hypothesis logs are committed.
+8. A manuscript-style validation narrative can defend the model against reviewer questions about overfitting, thermodynamic infeasibility, enzyme-capacity realism, and strain-specific evidence.
+
+If these gates are not met, keep iterating.

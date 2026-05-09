@@ -9,6 +9,8 @@ description: Use when advancing the Rhodopseudomonas palustris CGA009/TX73 genom
 
 Treat `mymodel_CGA009_publishable_v1.13_lps_acp_acyltransferase_20260508.xlsx` as the frozen trustworthy baseline until a candidate version beats it on documented evidence, reproducible validation, and adversarial review.
 
+Keep iterating. Do not end with a plan, a single report, or a partially tested candidate unless an external blocker makes further work impossible. A candidate version can replace v1.13 only after repeated build-test-criticize-rebuild cycles satisfy the acceptance gates in `references/top_journal_strategy.md`.
+
 Do not tune one reaction to satisfy one phenotype. Improve the whole model only when the change survives these gates:
 
 1. Literature or experimental source is cited.

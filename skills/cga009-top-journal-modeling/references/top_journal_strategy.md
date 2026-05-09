@@ -68,6 +68,21 @@ A candidate release can supersede v1.13 only if it has:
 - ecGEM/TFA/MFA constraints separated into measured, literature-derived, and sensitivity-only tiers.
 - An adversarial review note listing failed hypotheses and rejected shortcuts.
 
+If these criteria are not met, continue iterating. Do not stop at "next steps" or "recommendations." Create the next candidate, run the checks again, and keep the rejected-hypothesis log current until the model can be defended as publication-ready.
+
+## Iteration Loop
+
+Each cycle must produce artifacts:
+
+1. Reproduce the previous baseline metrics.
+2. Form one falsifiable model-improvement hypothesis.
+3. Implement the smallest evidence-supported candidate change set.
+4. Run phenotype, COBRA, MEMOTE, pFBA/FVA, loopless/TFA-relevant checks, and any available MFA comparison.
+5. Write the strongest counterargument and test it.
+6. Keep or reject the candidate.
+7. If rejected, preserve the failure record and start the next hypothesis.
+8. If kept, version the candidate and continue until the publication-ready gates are satisfied.
+
 ## Stop Conditions
 
 Do not edit the porphyrin/chlorophyll/cobalamin module one reaction at a time. Solve formula/proton/charge conventions pathway-wide.
