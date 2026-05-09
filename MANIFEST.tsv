@@ -15,3 +15,5 @@ next_agent/NEXT_AGENT_PROMPT.md	Prompt to hand directly to the next agent
 skills/cga009-top-journal-modeling/SKILL.md	Codex skill for rigorous CGA009 model improvement
 skills/cga009-top-journal-modeling/references/top_journal_strategy.md	Strategy reference loaded by the skill
 skills/cga009-top-journal-modeling/scripts/check_release_files.py	Package integrity checker
+skills/cga009-top-journal-modeling/scripts/python_cobrapy_baseline_template.py	Python/COBRApy baseline validation starter for agents without MATLAB
+requirements.txt	Python-first dependency list for COBRApy/memote validation

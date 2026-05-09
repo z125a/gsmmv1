@@ -31,6 +31,12 @@ Why v1.13:
 python .\skills\cga009-top-journal-modeling\scripts\check_release_files.py
 ```
 
+## Execution Environment
+
+Use Python/COBRApy as the default execution path. MATLAB/COBRA Toolbox is optional and should only be used when available. A next agent without MATLAB must still continue using Python tools such as COBRApy, memote, pandas, scipy, optlang, GLPK/HiGHS-compatible solvers, and notebook or script-based reports.
+
+The agent should work autonomously: do not ask for repeated yes/no confirmation during normal literature extraction, script writing, validation, candidate-version creation, or Git commits. Ask the user only when there is a genuine external blocker, destructive action, credential need, paid/proprietary data access issue, or an irreversible scientific decision.
+
 ## Next Scientific Direction
 
 Do not continue one-reaction patching as the main strategy. The next credible improvement is a whole-model validation program:

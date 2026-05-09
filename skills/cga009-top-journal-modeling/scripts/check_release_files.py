@@ -15,7 +15,9 @@ REQUIRED = [
     "evidence/LITERATURE_READING_PROTOCOL.md",
     "evidence/phenotype_data_requirements.tsv",
     "next_agent/NEXT_AGENT_PROMPT.md",
+    "requirements.txt",
     "skills/cga009-top-journal-modeling/SKILL.md",
+    "skills/cga009-top-journal-modeling/scripts/python_cobrapy_baseline_template.py",
 ]
 
 

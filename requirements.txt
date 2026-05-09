@@ -1,0 +1,7 @@
+cobra>=0.29
+memote>=0.17
+pandas>=2.0
+scipy>=1.10
+openpyxl>=3.1
+optlang>=1.8
+swiglpk>=5.0

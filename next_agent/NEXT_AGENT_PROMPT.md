@@ -26,9 +26,17 @@ Mission:
 
 Build the next publishable version by integrating three constraint layers: enzyme-capacity constraints (ecGEM/ME-model), thermodynamic flux analysis (TFA), and 13C-MFA validation. Do not chase a single reaction or single phenotype. Improve the whole model's reliability.
 
+Execution environment:
+
+Use Python/COBRApy as the primary path. Do not require MATLAB. If MATLAB/COBRA Toolbox is installed, it can be used as an additional cross-check, but lack of MATLAB is not a blocker. Implement reproducible Python scripts for SBML loading, FBA, pFBA, FVA, loopless checks where available, phenotype panels, evidence-table processing, and report generation. Use memote from Python/CLI when available. Prefer open solvers such as GLPK/HiGHS-compatible setups unless a licensed solver is already configured.
+
 Persistence requirement:
 
 Do not stop after one analysis pass, one report, or one candidate patch. Work in repeated build-test-criticize-rebuild cycles until the model reaches publication-ready quality or an explicit external blocker is reached. If a cycle fails, record why, revise the hypothesis, and continue with the next most defensible route. A normal stopping point is not "I found the next steps"; a normal stopping point is "the next version is reproducibly stronger than v1.13 and satisfies the acceptance gates below."
+
+Autonomy requirement:
+
+Do not repeatedly ask the user for yes/no approval during normal work. Proceed autonomously through reading literature, extracting evidence, writing scripts, running validation, creating candidate folders, committing reproducible artifacts, and iterating. Ask the user only for true blockers: missing proprietary data, unavailable credentials, paid database access, destructive overwrite, ambiguous biological convention that would permanently alter model interpretation, or a wet-lab decision that cannot be inferred from evidence.
 
 Rules:
 
@@ -40,6 +48,8 @@ Rules:
 6. Do not make one-off edits in porphyrin/chlorophyll/cobalamin, tRNA pseudo-metabolites, or carrier-convention modules until pathway-wide conventions are solved.
 7. Keep all scripts deterministic so another person can rerun from a clean clone.
 8. Continue iterating across candidate versions (`candidate_v1.14`, `candidate_v1.15`, etc.) until the acceptance gates are met; do not hand back only a plan unless blocked by missing experimental data, missing credentials, or impossible software setup.
+9. Do not stop because MATLAB is absent; use Python/COBRApy and document any MATLAB-only comparison as optional.
+10. Do not pause for routine confirmations; keep working until a real stop condition is reached.
 
 First deliverables:
 

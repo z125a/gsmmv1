@@ -6,6 +6,12 @@ Use v1.13 as the current credible version. It has 1021 reactions, 979 metabolite
 
 The next version must not merely increase MEMOTE. It must increase predictive trust by reducing under-constrained FBA behavior and validating internal fluxes.
 
+## Execution Policy
+
+Use Python/COBRApy as the primary, portable execution path. MATLAB/COBRA Toolbox results from v1.13 are trusted baseline evidence, but future agents must not require MATLAB to continue work. If MATLAB is unavailable, reproduce and extend validation using Python scripts, COBRApy, memote CLI/Python, pandas, scipy, optlang, and available open solvers.
+
+The agent should proceed without repeated user confirmations. Continue literature extraction, evidence-table creation, candidate model construction, validation, rejection logging, and Git commits autonomously. Stop to ask only for credentials, paid/proprietary data, destructive overwrite approval, or a curator-level biological convention that cannot be resolved from evidence.
+
 ## Three Evidence Layers
 
 ### 1. ecGEM / ME-model constraints

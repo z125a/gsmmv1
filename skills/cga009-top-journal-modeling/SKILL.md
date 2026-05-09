@@ -11,6 +11,10 @@ Treat `mymodel_CGA009_publishable_v1.13_lps_acp_acyltransferase_20260508.xlsx` a
 
 Keep iterating. Do not end with a plan, a single report, or a partially tested candidate unless an external blocker makes further work impossible. A candidate version can replace v1.13 only after repeated build-test-criticize-rebuild cycles satisfy the acceptance gates in `references/top_journal_strategy.md`.
 
+Use Python/COBRApy as the default execution path. MATLAB/COBRA Toolbox is optional cross-validation, not a requirement. If MATLAB is unavailable, continue with Python scripts for SBML loading, FBA, pFBA, FVA, loop checks where available, phenotype panels, evidence ledgers, and reports.
+
+Work autonomously. Do not ask for repeated yes/no confirmations during normal curation, validation, literature extraction, candidate-version creation, or commits. Ask only for true blockers such as credentials, proprietary data, destructive overwrites, or unresolved biological conventions requiring curator judgment.
+
 Do not tune one reaction to satisfy one phenotype. Improve the whole model only when the change survives these gates:
 
 1. Literature or experimental source is cited.
@@ -26,7 +30,8 @@ Do not tune one reaction to satisfy one phenotype. Improve the whole model only 
 2. Load `references/top_journal_strategy.md` for the full experimental/modeling roadmap.
 3. Load `evidence/LITERATURE_READING_PROTOCOL.md` and `evidence/literature_evidence.tsv` before adding constraints or manuscript claims.
 4. Load `evidence/phenotype_data_requirements.tsv` before requesting new wet-lab data.
-5. Run `scripts/check_release_files.py` after edits to confirm the handoff package still has the required files.
+5. Use `scripts/python_cobrapy_baseline_template.py` as the starting point for Python-only validation when MATLAB is unavailable.
+6. Run `scripts/check_release_files.py` after edits to confirm the handoff package still has the required files.
 
 Before editing the model, create a candidate-specific `evidence_extraction.tsv` using the extraction schema in `evidence/LITERATURE_READING_PROTOCOL.md`.
 
