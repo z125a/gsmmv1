@@ -1,0 +1,7 @@
+shortcut	why_rejected	evidence_or_rule	status
+Add exchange reactions to force growth	This would improve phenotype output while damaging biological credibility.	NEXT_AGENT_PROMPT rule 5; top_journal_strategy stop conditions	rejected
+Use ME-model reactions wholesale to replace v1.13	The ME paper is CGA009-specific but has different scope and assumptions; direct replacement could erase curated v1.13 stoichiometry.	Evidence extraction rows ME_CGA009_Chowdhury_2022	rejected
+Hard-code LFQ proteomics as absolute enzyme bounds	LFQ intensities are relative proxy abundances and not absolute molecules/cell or fmol/ug.	CGA009 proteomics preprint methods; phenotype_data_requirements.tsv	rejected
+Optimize H2 or PHB alone and call the result experimental truth	FBA objective choice can create unrealistic flux distributions without measured exchange and 13C validation.	McKinlay/Harwood evidence; top_journal_strategy stop conditions	rejected
+Apply TFA with generic metabolite concentration ranges as final proof	Broad generic concentration ranges can be useful for sensitivity but cannot support strong strain-specific claims.	Henry TFA and pyTFA rows; phenotype_data_requirements.tsv	rejected
+Patch porphyrin/chlorophyll/cobalamin reactions one at a time	Baseline handoff identifies this as pathway-wide convention problem where single H+ edits can break neighbors.	baseline/CLAUDE_HANDOFF_V1.13_20260509.md	rejected
