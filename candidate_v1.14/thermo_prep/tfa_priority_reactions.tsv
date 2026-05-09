@@ -1,0 +1,11 @@
+reaction_id	name	equation_summary	reversible	current_lb	current_ub	deltaG_source	tfa_priority
+rxn00336_c0	isocitrate glyoxylate-lyase (succinate-forming)_c0	cpd00260[c0] --> cpd00036[c0] + cpd00040[c0]	False	0.0	1000.0	NEEDS_eQuilibrator	high
+rxn00330_c0	acetyl-CoA:glyoxylate C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming)_c0	cpd00001[c0] + cpd00022[c0] + cpd00040[c0] --> cpd00010[c0] + cpd00067[c0] + cpd00130[c0]	False	0.0	1000.0	NEEDS_eQuilibrator	high
+rxn00256_c0	acetyl-CoA:oxaloacetate C-acetyltransferase (thioester-hydrolysing)_c0	cpd00001[c0] + cpd00022[c0] + cpd00032[c0] --> cpd00010[c0] + cpd00067[c0] + cpd00137[c0]	False	0.0	1000.0	NEEDS_eQuilibrator	high
+rxn00974_c0	citrate hydro-lyase (cis-aconitate-forming)_c0	cpd00137[c0] <=> cpd00001[c0] + cpd00331[c0]	True	-1000.0	1000.0	NEEDS_eQuilibrator	high
+rxn00199_c0	oxalosuccinate carboxy-lyase (2-oxoglutarate-forming)_c0	cpd00067[c0] + cpd03187[c0] --> cpd00011[c0] + cpd00024[c0]	False	0.0	1000.0	NEEDS_eQuilibrator	high
+rxn00285_c0	Succinate:CoA ligase (ADP-forming)_c0	cpd00002[c0] + cpd00010[c0] + cpd00036[c0] <=> cpd00008[c0] + cpd00009[c0] + cpd00078[c0]	True	-1000.0	1000.0	NEEDS_eQuilibrator	high
+rxn00288_c0	Succinate:(acceptor) oxidoreductase_c0	cpd00015[c0] + cpd00036[c0] <=> cpd00106[c0] + cpd00982[c0]	True	-1000.0	1000.0	NEEDS_eQuilibrator	high
+rxn13974_c0	pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating)	cpd00011[c0] + cpd00022[c0] + cpd00067[c0] + 2.0 cpd11620[c0] <=> cpd00010[c0] + cpd00020[c0] + 2.0 cpd11621[c0]	True	-1000.0	1000.0	NEEDS_eQuilibrator	high
+rxn01116_c0	D-Ribulose-5-phosphate 3-epimerase_c0	cpd00171[c0] <=> cpd00198[c0]	True	-1000.0	1000.0	NEEDS_eQuilibrator	high
+rxn06874_c0	reduced ferredoxin:dinitrogen oxidoreductase (ATP-hydrolysing)_c0	16.0 cpd00001[c0] + 16.0 cpd00002[c0] + cpd00528[c0] + 8.0 cpd11620[c0] --> 16.0 cpd00008[c0] + 16.0 cpd00009[c0] + 2.0 cpd00013[c0] + 6.0 cpd00067[c0] + 8.0 cpd11621[c0] + cpd11640[c0]	False	0.0	1000.0	NEEDS_eQuilibrator	high

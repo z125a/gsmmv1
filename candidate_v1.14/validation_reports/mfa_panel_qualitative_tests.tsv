@@ -1,0 +1,13 @@
+substrate	test	expected	observed	status	source
+acetate	growth_feasible	>0	10.7020	PASS	McKinlay_Harwood_2011_Table2
+acetate	glyoxylate_shunt_active	>0 (acetate/butyrate assimilated via glyoxylate shunt)	2.391257	PASS	McKinlay_Harwood_2011_Fig1
+acetate	Calvin_cycle_active	>0 (essential for electron balance in WT photoheterotrophic)	-4.3782	PASS	McKinlay_Harwood_2011_Fig2
+acetate	net_CO2_production	>0 (net CO2 release for WT)	0.2300	PASS	McKinlay_Harwood_2011_Table3
+succinate	growth_feasible	>0	10.5899	PASS	McKinlay_Harwood_2011_Table2
+succinate	glyoxylate_shunt_inactive	=0 (succinate not via glyoxylate shunt)	2.366216	FAIL	McKinlay_Harwood_2011_Fig1
+succinate	Calvin_cycle_active	>0 (essential for electron balance in WT photoheterotrophic)	-4.3323	PASS	McKinlay_Harwood_2011_Fig2
+succinate	net_CO2_production	>0 (net CO2 release for WT)	0.2300	PASS	McKinlay_Harwood_2011_Table3
+succinate	POR_forward_for_acetylCoA	>0 (succinate needs decarboxylation to reach acetyl-CoA)	89.0513	PASS	McKinlay_Harwood_2011_Fig1
+butyrate	growth_feasible	>0	10.8126	PASS	McKinlay_Harwood_2011_Table2
+butyrate	glyoxylate_shunt_active	>0 (acetate/butyrate assimilated via glyoxylate shunt)	2.415969	PASS	McKinlay_Harwood_2011_Fig1
+butyrate	Calvin_cycle_active	>0 (essential for electron balance in WT photoheterotrophic)	-4.4234	PASS	McKinlay_Harwood_2011_Fig2

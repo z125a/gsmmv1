@@ -5,3 +5,7 @@ Hard-code LFQ proteomics as absolute enzyme bounds	LFQ intensities are relative 
 Optimize H2 or PHB alone and call the result experimental truth	FBA objective choice can create unrealistic flux distributions without measured exchange and 13C validation.	McKinlay/Harwood evidence; top_journal_strategy stop conditions	rejected
 Apply TFA with generic metabolite concentration ranges as final proof	Broad generic concentration ranges can be useful for sensitivity but cannot support strong strain-specific claims.	Henry TFA and pyTFA rows; phenotype_data_requirements.tsv	rejected
 Patch porphyrin/chlorophyll/cobalamin reactions one at a time	Baseline handoff identifies this as pathway-wide convention problem where single H+ edits can break neighbors.	baseline/CLAUDE_HANDOFF_V1.13_20260509.md	rejected
+
+Cap nitrogenase flux directly to match experimental H2 yield	Circular reasoning: fitting the output without understanding the mechanism; would not generalize to other conditions.	McKinlay/Harwood 2011; Chowdhury 2022 ETFD analysis	rejected
+Apply ATP cap alone to fix H2 over-prediction	ATP cap reduces growth by 15% but barely affects H2 yield (<4% change); the bottleneck is electron transport, not ATP.	Cycle 4 ATP cap sensitivity scan results	rejected
+Use generic metabolite concentrations for hard TFA constraints	Without CGA009-specific metabolomics, concentration ranges are too broad to meaningfully constrain flux directions.	Henry TFA 2007; phenotype_data_requirements.tsv	rejected

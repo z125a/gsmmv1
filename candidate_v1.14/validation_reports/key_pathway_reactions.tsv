@@ -1,0 +1,19 @@
+pathway	n_reactions_found	reaction_ids
+Calvin_cycle_RuBisCO	5	rxn01116_c0; rxn05040_c0; rxn00018_c0; rxn01111_c0; rxn02507_c0
+Calvin_cycle_GAPDH	0	NONE_FOUND
+TCA_citrate_synthase	0	NONE_FOUND
+TCA_isocitrate_dehydrogenase	0	NONE_FOUND
+TCA_alpha_ketoglutarate_dehydrogenase	0	NONE_FOUND
+TCA_succinate_dehydrogenase	0	NONE_FOUND
+glyoxylate_shunt_ICL	0	NONE_FOUND
+glyoxylate_shunt_MS	0	NONE_FOUND
+pyruvate_dehydrogenase	0	NONE_FOUND
+pyruvate_ferredoxin_oxidoreductase	67	rxn13974_c0; rxn08691_c0; rxn06792_c0; rxn06792_LN_c0; rxn00029_c0; rxn00060_c0; rxn02288_c0; rxn04704_c0; rxn02303_c0; rxn02304_c0; rxn16331_c0; rxn00224_c0; rxn03384_c0; rxn02733_c0; rxn02959_c0; rxn04152_c0; rxn04153_c0; rxn04154_c0; rxn02287_c0; rxn11941_c0; rxn11942_c0; rxn05150_c0; rxn05148_c0; rxn05172_c0; rxn09657_c0; rxn05187_c0; rxn05557_c0; rxn08241_c0; rxn08762_c0; rxn05219_c0; rxn05223_c0; rxn05312_c0; rxn05561_c0; rxn05599_c0; rxn05163_c0; rxn05687_c0; rxn05175_c0; rxn05303_c0; rxn08718_c0; rxn05151_c0; rxn05237_c0; rxn05155_c0; rxn05152_c0; rxn08160_c0; rxn05488_c0; rxn05618_c0; rxn05654_c0; rxn05651_c0; rxn05153_c0; rxn10481_c0; rxn05514_c0; rxn05619_c0; rxn05602_c0; rxn05171_c0; rxn08924_c0; rxn05176_c0; rxn05181_c0; rxn05308_c0; rxn05298_c0; rxn05209_c0; rxn08475_c0; rxn05145_c0; rxn08234_c0; rxn05195_c0; rxn05683_c0; rxn10153_c0; rxnTX73_cpd00604_tr_c0
+nitrogenase	0	NONE_FOUND
+H2_exchange	28	rxn05759_c0; rxn08691_c0; rxn03951_c0; rxn04139_c0; rxn00183_c0; rxn30330_c0; rxn06790_c0; rxn06792_c0; rxn06790_LN_c0; rxn06792_LN_c0; rxn00566_c0; rxn00649_c0; rxn00952_c0; rxn05957_c0; rxn35926_c0; rxn36169_c0; rxn04792_c0; rxn05735_c0; rxn00006_c0; rxn03542_c0; rxn02774_c0; rxn00414_c0; EX_cpd00001_e0; EX_cpd00268_e0; EX_cpd11640_e0; rxn05319_c0; rxn12239_c0; rxn00623_c0
+CO2_exchange	3	EX_cpd00011_e0; EX_cpd00149_e0; rxn05467_c0
+acetate_exchange	89	rxn00256_c0; rxn13974_c0; rxn00161_c0; rxn00227_c0; rxn00251_c0; rxn00330_c0; rxn00011_c0; rxn00175_c0; rxn00247_c0; rxn00506_c0; rxn01871_c0; rxn01187_c0; rxn05349_c0; rxn06673_c0; rxn08766_c0; rxn00539_c0; rxn02937_c0; rxn02011_c0; rxn03164_c0; rxn39478_c0; rxn15972_c0; rxn00293_c0; rxn00461_c0; rxn02285_c0; rxn03638_c0; rxn00295_c0; rxn00255_c0; rxn00598_c0; rxn00174_c0; rxn15641_c0; rxn06926_c0; rxn00423_c0; rxn00649_c0; rxn05733_c0; rxn00952_c0; rxn01303_c0; rxn06078_c0; rxn02008_c0; rxn02286_c0; rxn00178_c0; rxn00874_c0; rxn02680_c0; rxn06510_c0; rxn02804_c0; rxn03243_c0; rxn03248_c0; rxn07879_c0; rxn07880_c0; rxn07884_c0; rxn00274_c0; rxn05735_c0; rxn02853_c0; rxn00501_c0; rxn00502_c0; rxn06729_c0; rxn03146_c0; rxn06723_c0; rxn00231_c0; rxn03141_c0; rxn03408_c0; rxn03903_c0; rxn03904_c0; rxn03933_c0; rxn06718_c0; rxn01842_c0; rxn01843_c0; rxn00679_c0; rxn02424_c0; rxn00991_c0; rxn00173_c0; rxn00225_c0; rxn04789_c0; rxn02222_c0; rxn02366_c0; rxn00192_c0; rxn01636_c0; rxn01637_c0; rxn01917_c0; rxn02465_c0; rxn00469_c0; rxn00290_c0; rxn00676_c0; rxn03436_c0; rxn00902_c0; rxn15491_c0; rxn03194_c0; EX_cpd00029_e0; rxn05488_c0; EX_cpd09878_e0
+succinate_exchange	20	rxn00199_c0; rxn00285_c0; rxn00288_c0; rxn01872_c0; rxn03136_c0; rxn01973_c0; rxn03031_c0; rxn03087_c0; rxn00598_c0; rxn05957_c0; rxn01304_c0; rxn00509_c0; rxn00599_c0; rxn00336_c0; rxn02988_c0; rxn00289_c0; rxn00802_c0; rxn00290_c0; EX_cpd00036_e0; rxn05654_c0
+butyrate_exchange	23	rxn05346_c0; rxn15455_c0; rxn01204_c0; rxn00194_c0; rxn00737_c0; rxn30633_c0; rxn04786_c0; rxn07465_c0; rxn00912_c0; rxn02186_c0; rxn00905_c0; rxn03188_c0; rxn00992_c0; rxn02949_c0; rxn39480_c0; rxn03436_c0; rxn03068_c0; rxn15467_c0; rxn00902_c0; rxn03194_c0; rxn05683_c0; rxn00873_c0; EX_cpd00211_e0
+PHB_synthesis	1	rxn15455_c0
+phosphoribulokinase	0	NONE_FOUND

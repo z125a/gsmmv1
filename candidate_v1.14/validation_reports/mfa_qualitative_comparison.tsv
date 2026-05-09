@@ -1,0 +1,13 @@
+test	expected	observed	status
+glyoxylate_shunt_on_acetate	active (>0)	0.0000	FAIL
+Calvin_cycle_active_on_acetate	active (>0) for WT photoheterotrophic	-4.3782	PASS
+H2_exchange_feasible_on_acetate	non-zero if nitrogenase active	4.9502	INFO
+CO2_production_on_acetate	positive (net CO2 release for WT on most substrates)	-0.0908	INFO
+glyoxylate_shunt_on_succinate	inactive (=0)	0.0000	PASS
+Calvin_cycle_active_on_succinate	active (>0) for WT photoheterotrophic	-4.3661	PASS
+H2_exchange_feasible_on_succinate	non-zero if nitrogenase active	4.9366	INFO
+CO2_production_on_succinate	positive (net CO2 release for WT on most substrates)	-0.0906	INFO
+glyoxylate_shunt_on_butyrate	active (>0)	0.0000	FAIL
+Calvin_cycle_active_on_butyrate	active (>0) for WT photoheterotrophic	-4.4878	PASS
+H2_exchange_feasible_on_butyrate	non-zero if nitrogenase active	5.0741	INFO
+CO2_production_on_butyrate	positive (net CO2 release for WT on most substrates)	-0.0931	INFO

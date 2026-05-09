@@ -1,0 +1,13 @@
+condition	test	expected	observed	status
+succinate	growth_feasible	>0	10.5606	PASS
+succinate	glyoxylate_shunt_inactive	=0 (enzyme constraint applied)	0.000000	PASS
+succinate	Calvin_cycle_active	non-zero	-4.3203	PASS
+succinate	net_CO2_production	>0	0.2300	PASS
+acetate	growth_feasible	>0	10.7020	PASS
+acetate	glyoxylate_shunt_active	>0	2.391257	PASS
+acetate	Calvin_cycle_active	non-zero	-4.3782	PASS
+acetate	net_CO2_production	>0	0.2300	PASS
+butyrate	growth_feasible	>0	10.8126	PASS
+butyrate	glyoxylate_shunt_active	>0	2.415969	PASS
+butyrate	Calvin_cycle_active	non-zero	-4.4234	PASS
+butyrate	net_CO2_production	>0	0.2300	PASS

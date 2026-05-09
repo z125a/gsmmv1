@@ -1,2 +1,2 @@
 model_id	reaction_count	metabolite_count	gene_count	solver	objective
-COBRAModel	1021	979	685	<module 'optlang.glpk_interface' from 'E:\\model\\memote_py312\\Lib\\site-packages\\optlang\\glpk_interface.py'>	1.0*bio1 - 1.0*bio1_reverse_b18f7
+COBRAModel	1021	979	685	<module 'optlang.glpk_interface' from '/home/mi/.local/lib/python3.10/site-packages/optlang/glpk_interface.py'>	1.0*bio1 - 1.0*bio1_reverse_b18f7
