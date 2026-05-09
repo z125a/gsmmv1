@@ -141,11 +141,38 @@ Adding a substrate-specific photosynthetic ATP cap (from Chowdhury 2022 ME model
 
 ---
 
-## Cycle 4 (in progress)
+## Cycle 5
 
-Goals:
-1. Implement substrate-specific ATP production cap.
-2. Re-run H2 yield validation with ATP constraint.
-3. Check if reduced ferredoxin availability is the true bottleneck.
-4. Begin eQuilibrator deltaG queries for TFA priority reactions.
-5. Build the first candidate v1.14 SBML with condition-specific constraint annotations.
+Hypothesis: Constraining reduced ferredoxin production will reduce H2 over-prediction.
+
+Actions:
+
+1. Characterized WT Fd_red balance: ~180-184 units total, balanced.
+2. Fd:NADP+ constraint alone insufficient (H2 still 300+ even at 1% cap).
+3. **Critical discovery**: ALL model H2 comes from HYDROGENASE (rxn05759), NOT nitrogenase!
+   - No N2 exchange exists → nitrogenase cannot function
+   - CGA009 has defective uptake hydrogenase → hydrogenase H2 is biologically wrong
+4. Model architecture gap: needs N2 exchange or nitrogenase proton-reduction reaction.
+
+Decision: Record as critical gap. H2 validation blocked until resolved. Continue with TFA and phenotype expansion.
+
+## Summary of Validated Constraints for v1.14
+
+| Constraint | Evidence | Status |
+|-----------|----------|--------|
+| ICL=0 on succinate | McKinlay/Harwood 2011 | ACCEPTED |
+| Hydrogenase block for CGA009 | Rey et al. 2006 | CANDIDATE |
+| N2 exchange needed | Architecture gap | BLOCKED |
+
+## Acceptance Gate Status
+
+| Gate | Status |
+|------|--------|
+| Baseline reproducible | ✓ PASS |
+| No phenotype regression | ✓ PASS (12/12) |
+| Exchange flux comparison | PARTIAL (H2 blocked) |
+| Internal flux vs 13C-MFA | PARTIAL (qualitative pass) |
+| ecGEM constraints | IN PROGRESS |
+| TFA constraints | NOT STARTED |
+| MEMOTE reports | BASELINE ONLY |
+| Adversarial review | ✓ ONGOING |

@@ -9,3 +9,5 @@ Patch porphyrin/chlorophyll/cobalamin reactions one at a time	Baseline handoff i
 Cap nitrogenase flux directly to match experimental H2 yield	Circular reasoning: fitting the output without understanding the mechanism; would not generalize to other conditions.	McKinlay/Harwood 2011; Chowdhury 2022 ETFD analysis	rejected
 Apply ATP cap alone to fix H2 over-prediction	ATP cap reduces growth by 15% but barely affects H2 yield (<4% change); the bottleneck is electron transport, not ATP.	Cycle 4 ATP cap sensitivity scan results	rejected
 Use generic metabolite concentrations for hard TFA constraints	Without CGA009-specific metabolomics, concentration ranges are too broad to meaningfully constrain flux directions.	Henry TFA 2007; phenotype_data_requirements.tsv	rejected
+
+Add N2 exchange without verifying nitrogenase stoichiometry and ATP/electron requirements	Adding N2 exchange alone would enable nitrogenase but the H2:N2 stoichiometry and ATP cost must match literature (16 ATP + 8 Fd_red per N2 + H2).	Nitrogenase biochemistry; McKinlay/Harwood experimental design (argon headspace, no N2)	rejected_pending_evidence
